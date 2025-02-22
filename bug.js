@@ -1,0 +1,1 @@
+In Next.js 15, a subtle bug can occur when using `getServerSideProps` with dynamic routes and data fetching that depends on the route parameters.  If the data fetching logic isn't properly handled, it can lead to unexpected behavior or errors, particularly when dealing with edge cases or rapidly changing data sources.
